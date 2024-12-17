@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Plantilla.Master.cs" Inherits="ExamenFinal_AaronRuiz.CapaVistas.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="css/menu.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <ul>
+            <li><a class="home.aspx" href="#home">Inicio</a></li>
+            <li><a href="Canciones.aspx">Canciones</a></li>
+            <li><a href="Cantantes.aspx">Cantantes</a></li>
+            <li><a href="Salir.aspx">Salir</a></li>
+        </ul>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</form>
+</body>
+</html>
